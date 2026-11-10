@@ -1,0 +1,58 @@
+
+/* Body Design */
+body {
+    font-family: Arial;
+    background-image: url("glowing-sci-fi-portal-ancient-structure-ancient-monolithic-structure-emerges-misty-waters-its-weathered-surface-406861128.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Form Design */
+form {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Input Design */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio Button */
+input[type="radio"] {
+    width: auto;
+}
+
+/* Save Button */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Clear Button */
+input[type="reset"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
